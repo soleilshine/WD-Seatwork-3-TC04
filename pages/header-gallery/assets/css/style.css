@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100vw;
+    padding: 1rem 5vw;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+header.design-one {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: #A79277;
+
+    & > img.company-logo {
+        height: 70px;
+    }
+
+    & > nav.navigation {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        & > a.navigation-content {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: black;
+        }
+    }
+}
+
+.design-two {
+    display: flex;
+    width: 210vh;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    align-items: center;
+    background: whitesmoke;
+
+    & img.company-logo {
+        height: 70px;
+    }
+
+    & > nav.navigation {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        & > a.navigation-content {
+            color: black;
+            font-weight: 800;
+            font-size: 1.2rem;
+        }
+
+        & > .call-to-action {
+            border: 1px black solid;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+    }
+}
+
+.design-three {
+    display: flex;
+    align-self: flex-start;
+    width: 211vh;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    align-items: center;
+    background: #B4B4B8;
+
+    & img.company-logo {
+        height: 70px;
+        margin-left: 40%;
+    }
+
+    .bi-list {
+        font-size: 100%;
+        align-self: flex-start;
+        gap: 0.7rem;
+        padding: 5rem;
+    }
+
+    .design-three .navigation {
+        display: flex;
+        gap: 0.7rem;
+        align-items: center;
+    }
+
+    .design-three .navigation .nav-button {
+        background-color: black; 
+        margin-left: 20px;
+        border-radius: 10px;
+        padding: 10px 20px;
+        font-size: 1.1rem;
+    }
+
+    .design-three .navigation .b1 {
+        font-size: 2.5rem;
+    }
+}
+
+.design-four {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2rem;
+    width: 100vw;
+    box-shadow: 0 10px rgba(124, 124, 125, 0.540);
+    padding: 1.5rem 0;
+    border: 1px black solid;
+    
+    & .company-logo {
+        height: 80px;
+    }
+
+    & .navigation {
+        display: flex;
+        gap: 1rem;
+    }
+
+    & .nav-content {
+        color: black;
+        font-weight: 700;
+        font-size: 1.2rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 1rem;
+        
+
+    }
+}
+
