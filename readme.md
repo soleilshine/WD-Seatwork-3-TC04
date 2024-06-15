@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/soleilshane/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/pixar-logo.png" alt="pixar" width="150" height="100">
   </a>
@@ -24,7 +24,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+https://github.com/soleilshine/WD-Seatwork-3-TC04
 
 ---
 
